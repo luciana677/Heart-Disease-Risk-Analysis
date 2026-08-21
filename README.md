@@ -1,4 +1,4 @@
-#❤️ Heart Disease Risk Analysis
+# ❤️ Heart Disease Risk Analysis
 
 «An exploratory data analysis and Power BI project investigating patient characteristics and clinical factors associated with heart disease, with the goal of identifying patterns that can support better health-risk understanding.»
 
@@ -83,33 +83,35 @@ Version Control| Git / GitHub
 Documentation| Markdown
 
 ---
-
+```
 4. Repository Structure
-'''
-heart-disease-risk-analysis/
+
+❤️ Heart-Disease-Risk-Analysis
 │
-├── data/
-│   ├── raw/
-│   └── processed/
+├── 📂 data
+│   ├── 📂 raw
+│   │   └── heart_disease.csv
+│   │
+│   └── 📂 processed
+│       └── heart_disease_cleaned.csv
 │
-├── notebooks/
+├── 📂 notebooks
 │   └── heart_disease_analysis.ipynb
 │
-├── visuals/
-│   ├── dashboard.png
-│   └── analysis_charts/
+├── 📂 visuals
+│   ├── 📂 dashboard
+│   │   └── heart_disease_dashboard.png
+│   │
+│   └── 📂 eda
+│       └── [selected EDA visuals]
 │
-├── reports/
-│
-├── README.md
-└── .gitignore
-
-'''
-
+├── 📄 .gitignore
+└── 📄 README.md
+```
 ---
 
 5. Data Workflow
-'''
+```
 Raw Dataset
      ↓
 Data Inspection
@@ -123,7 +125,7 @@ Feature Preparation
 Power BI Visualization
      ↓
 Dashboard & Insights
-'''
+```
 1. Data Source
 
 The project used a heart disease dataset containing patient demographic and clinical information.
@@ -156,21 +158,22 @@ Dataset Description
 
 The dataset contains patient-level demographic and clinical variables used to investigate patterns associated with heart disease.
 
-Field| Description
-"age"| Patient age
-"sex"| Patient sex
-"cp"| Chest pain type
-"trestbps"| Resting blood pressure
-"chol"| Serum cholesterol
-"fbs"| Fasting blood sugar indicator
-"restecg"| Resting electrocardiographic results
-"thalach"| Maximum heart rate achieved
-"exang"| Exercise-induced angina
-"oldpeak"| ST depression induced by exercise
-"slope"| Slope of the peak exercise ST segment
-"ca"| Number of major vessels
-"thal"| Thalassemia-related measurement
-"heart_disease"| Heart disease status
+| Field | Description |
+|-------|-------------|
+| `age` | Patient age |
+| `sex` | Patient sex |
+| `cp` | Chest pain type |
+| `trestbps` | Resting blood pressure |
+| `chol` | Serum cholesterol |
+| `fbs` | Fasting blood sugar indicator |
+| `restecg` | Resting electrocardiographic results |
+| `thalach` | Maximum heart rate achieved |
+| `exang` | Exercise-induced angina |
+| `oldpeak` | ST depression induced by exercise |
+| `slope` | Slope of the peak exercise ST segment |
+| `ca` | Number of major vessels |
+| `thal` | Thalassemia-related measurement |
+| `heart_disease` | Heart disease status |
 
 Dataset Size
 
