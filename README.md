@@ -1,6 +1,6 @@
 # ❤️ Heart Disease Risk Analysis
 
-«An exploratory data analysis and Power BI project investigating patient characteristics and clinical factors associated with heart disease, with the goal of identifying patterns that can support better health-risk understanding.»
+An exploratory data analysis and Power BI project investigating patient characteristics and clinical factors associated with heart disease, with the goal of identifying patterns that can support better health-risk understanding.
 
 ---
 
@@ -205,12 +205,13 @@ The following areas were investigated:
 
 Key Metrics
 
-Metric| Definition| Purpose
-Heart Disease Count| Number of patients classified with heart disease| Understand overall disease distribution
-Heart Disease Rate| Patients with heart disease ÷ total patients| Measure prevalence within the dataset
-Average Age| Mean patient age by heart disease status| Compare age patterns
-Average Cholesterol| Mean cholesterol level by heart disease status| Examine cholesterol differences
-Average Max Heart Rate| Mean maximum heart rate by heart disease status| Identify differences in exercise-related heart performance
+| Metric | Definition | Purpose |
+|--------|------------|---------|
+| **Heart Disease Count** | Number of patients classified with heart disease | Understand overall disease distribution |
+| **Heart Disease Rate** | Patients with heart disease ÷ total patients | Measure prevalence within the dataset |
+| **Average Age** | Mean patient age by heart disease status | Compare age patterns |
+| **Average Cholesterol** | Mean cholesterol level by heart disease status | Examine cholesterol differences |
+| **Average Max Heart Rate** | Mean maximum heart rate by heart disease status | Identify differences in exercise-related heart performance |
 
 ---
 
