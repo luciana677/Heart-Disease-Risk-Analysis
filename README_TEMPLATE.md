@@ -1,4 +1,4 @@
-❤️ Heart Disease Risk Analysis
+#❤️ Heart Disease Risk Analysis
 
 «An exploratory data analysis and Power BI project investigating patient characteristics and clinical factors associated with heart disease, with the goal of identifying patterns that can support better health-risk understanding.»
 
@@ -14,20 +14,20 @@
 
 📑 Table of Contents
 
-1. "Project Overview" (#1-project-overview)
-2. "Objectives" (#2-objectives)
-3. "Project Scope & Tools" (#3-project-scope--tools)
-4. "Repository Structure" (#4-repository-structure)
-5. "Data Workflow" (#5-data-workflow)
-6. "Dataset Overview" (#6-dataset-overview)
-7. "Analysis & Metrics" (#7-analysis--metrics)
-8. "Key Insights" (#8-key-insights)
-9. "Recommendations" (#9-recommendations)
-10. "Assumptions & Limitations" (#10-assumptions--limitations)
-11. "Future Enhancements" (#11-future-enhancements)
-12. "Dashboard" (#12-dashboard)
-13. "Deliverables" (#13-deliverables)
-14. "Author" (#14-author)
+1. [Project Overview](#1-project-overview)
+2. [Objectives](#2-objectives)
+3. [Project Scope & Tools](#3-project-scope--tools)
+4. [Repository Structure](#4-repository-structure)
+5. [Data Workflow](#5-data-workflow)
+6. [Dataset Overview](#6-dataset-overview)
+7. [Analysis & Metrics](#7-analysis--metrics)
+8. [Key Insights](#8-key-insights)
+9. [Recommendations](#9-recommendations)
+10. [Assumptions & Limitations](#10-assumptions--limitations)
+11. [Future Enhancements](#11-future-enhancements)
+12. [Dashboard](#12-dashboard)
+13. [Deliverables](#13-deliverables)
+14. [Author](#14-author)
 
 ---
 
@@ -85,7 +85,7 @@ Documentation| Markdown
 ---
 
 4. Repository Structure
-
+'''
 heart-disease-risk-analysis/
 │
 ├── data/
@@ -104,12 +104,12 @@ heart-disease-risk-analysis/
 ├── README.md
 └── .gitignore
 
-«Only folders and files actually used in the final repository should be included.»
+'''
 
 ---
 
 5. Data Workflow
-
+'''
 Raw Dataset
      ↓
 Data Inspection
@@ -123,7 +123,7 @@ Feature Preparation
 Power BI Visualization
      ↓
 Dashboard & Insights
-
+'''
 1. Data Source
 
 The project used a heart disease dataset containing patient demographic and clinical information.
@@ -239,11 +239,12 @@ Cholesterol levels showed differences between patients with and without heart di
 
 «These recommendations are intended as data-analysis recommendations, not medical advice.»
 
-Priority| Recommendation| Based On
-High| Prioritize data-quality validation for clinically important variables before using the dataset for predictive analysis.| Data-quality findings
-High| Use multiple patient characteristics together rather than relying on a single variable when investigating heart disease patterns.| Exploratory findings
-Medium| Investigate the relationship between chest pain type, exercise-induced angina, and heart disease status in greater depth.| EDA findings
-Medium| Explore additional datasets with more complete clinical information to strengthen future analysis.| Dataset limitations
+| Priority | Recommendation | Based On |
+|----------|----------------|----------|
+| High | Prioritize data-quality validation for clinically important variables before using the dataset for predictive analysis. | Data-quality findings |
+| High | Use multiple patient characteristics together rather than relying on a single variable when investigating heart disease patterns. | Exploratory findings |
+| Medium | Investigate the relationship between chest pain type, exercise-induced angina, and heart disease status in greater depth. | EDA findings |
+| Medium | Explore additional datasets with more complete clinical information to strengthen future analysis. | Dataset limitations |
 
 ---
 
@@ -303,12 +304,13 @@ Dashboard Features
 
 13. Deliverables
 
-Deliverable| Description| Location
-Cleaned Dataset| Processed dataset used for analysis| "/data/processed/"
-Jupyter Notebook| Data cleaning and exploratory analysis| "/notebooks/"
-Dashboard| Interactive Power BI dashboard| Power BI link
-Dashboard Screenshot| Portfolio-ready dashboard image| "/visuals/"
-README| Project documentation| "/README.md"
+| Deliverable | Description | Location |
+|-------------|-------------|----------|
+| Cleaned Dataset | Processed dataset used for analysis | `/data/processed/` |
+| Jupyter Notebook | Data cleaning and exploratory analysis | `/notebooks/` |
+| Dashboard | Interactive Power BI dashboard | Power BI link |
+| Dashboard Screenshot | Portfolio-ready dashboard image | `/visuals/` |
+| README | Project documentation | `/README.md` |
 
 ---
 
