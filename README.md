@@ -100,10 +100,9 @@ Documentation| Markdown
 │
 ├── 📂 visuals
 │   ├── 📂 dashboard
-│   │   └── heart_disease_dashboard.png
-│   │
-│   └── 📂 eda
-│       └── [selected EDA visuals]
+│        └── heart_disease_dashboard.png     
+│        |___heart_disease_dashboard.pbix ttfn ñ to
+│   
 │
 ├── 📄 .gitignore
 └── 📄 README.md
